@@ -1,0 +1,50 @@
+/* Remove all custom font family and style settings */
+:root {
+  font-family: sans-serif; /* Default system font */
+  font-weight: normal;
+  line-height: normal;
+  color: black;  /* Text color */
+  background-color: white; /* Background color */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+body {
+  display: block; /* Default block layout */
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: white; /* Background color */
+  color: black; /* Text color */
+  font-family: sans-serif; /* Default system font */
+}
+
+h1 {
+  font-size: 2em;  /* Standard header size */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+a {
+  color: blue; /* Basic link color */
+  text-decoration: underline; /* Underline links */
+}
+
+a:hover {
+  color: darkblue; /* Darker color for hover */
+}
+
+button {
+  font-size: 1em; /* Default font size */
+  padding: 8px 16px; /* Standard button padding */
+  border: 1px solid #ccc; /* Simple border */
+  background-color: lightgray; /* Button background color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: inherit; /* Inherit the font family */
+}
+
+button:hover {
+  background-color: gray; /* Darker button background on hover */
+}
+
+button:focus {
+  outline: 2px solid blue; /* Outline on focus */
+}
+
