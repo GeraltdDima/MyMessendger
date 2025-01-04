@@ -1,12 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-public class FriendDbContext : DbContext
+public class FriendDbContext : DbContext, IDataBase<IContextFriend>
 {
     public FriendDbContext(DbContextOptions<FriendDbContext> options) : base(options) { }
     
     private DbSet<IContextFriend> friends { get; set;  }
 
-    public async Task<DbSet<IContextFriend>> GetFriendsAsync() => friends;
+    public async Task<DbSet<IContextFriend>> GetValues()
+    {
+        return await Task.FromResult<DbSet<IContextFriend>>(friends);
+    }
 
     public async Task AddFriendAsync(IContextFriend friend)
     {

@@ -1,12 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-public class CorrespondenceDbContext : DbContext
+public class CorrespondenceDbContext : DbContext, IDataBase<ICorrespondence>
 {
     public CorrespondenceDbContext(DbContextOptions<CorrespondenceDbContext> options) : base(options) { }
     
     private DbSet<ICorrespondence> correspondences { get; set; }
     
-    public async Task<DbSet<ICorrespondence>> GetCorrespondences() => correspondences;
+    public async Task<DbSet<ICorrespondence>> GetValues()
+    {
+        return await Task.FromResult<DbSet<ICorrespondence>>(correspondences);
+    }
 
     public async Task AddCorrespondence(ICorrespondence correspondence)
     {

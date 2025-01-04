@@ -5118,11 +5118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dima/LocalProjects/Projects/Messendger/backend/backend.csproj",
+      "projectUniqueName": "/home/dima/LocalProjects/Projects/MyMessendger/Messendger/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/home/dima/LocalProjects/Projects/Messendger/backend/backend.csproj",
+      "projectPath": "/home/dima/LocalProjects/Projects/MyMessendger/Messendger/backend/backend.csproj",
       "packagesPath": "/home/dima/.nuget/packages/",
-      "outputPath": "/home/dima/LocalProjects/Projects/Messendger/backend/obj/",
+      "outputPath": "/home/dima/LocalProjects/Projects/MyMessendger/Messendger/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/dima/.nuget/NuGet/NuGet.Config"
@@ -5147,7 +5147,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -5211,40 +5211,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/dima/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/dima/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Server.IIS' 2.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-prrf-397v-83xh",
-      "libraryId": "Microsoft.AspNetCore.Server.IIS",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Xml' 4.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh55-786g-wjwj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

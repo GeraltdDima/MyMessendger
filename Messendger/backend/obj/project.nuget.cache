@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDbZBi3vD10=",
+  "dgSpecHash": "BxkfM9TvX8k=",
   "success": true,
-  "projectFilePath": "/home/dima/LocalProjects/Projects/Messendger/backend/backend.csproj",
+  "projectFilePath": "/home/dima/LocalProjects/Projects/MyMessendger/Messendger/backend/backend.csproj",
   "expectedPackageFiles": [
     "/home/dima/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/dima/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
@@ -126,36 +126,5 @@
     "/home/dima/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/dima/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Server.IIS' 2.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-prrf-397v-83xh",
-      "libraryId": "Microsoft.AspNetCore.Server.IIS",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Xml' 4.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh55-786g-wjwj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }
