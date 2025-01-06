@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-public interface IDataBase<T>
-{ 
-    Task<DbSet<T>> GetValues<T>();
+
+public interface IDataBase<T> where T : class
+{
+    Task<DbSet<T>> GetValues();
 }
